@@ -14,13 +14,14 @@
     }
 
     #table-data td, #table-data th {
-        border: 1px solid black;
+        /* border: 1px solid black; */
+        border: none;
     }
 </style>
 
 <body>
 <div class="invoice-box">
-    <table cellpadding="0" cellspacing="0">
+    <table cellpadding="0" cellspacing="0" style="margin-bottom: 30px">
         <tr class="top">
             <td colspan="2">
                 <table>
@@ -35,7 +36,7 @@
     </table>
 
 
-    <table border="0" id="table-data" width="80%">
+    <table id="table-data" width="80%" style="margin-bottom: 30px">
         <tr>
             <td width="70px">Invoice ID</td>
             <td width="">: {{ $product_masuk->id }}</td>
@@ -83,7 +84,7 @@
     </table>
     <table border="0" width="80%">
         <tr align="right">
-            <td>Sheptian Bagja Utama</td>
+            <td>Comma Store</td>
         </tr>
     </table>
 </div>
