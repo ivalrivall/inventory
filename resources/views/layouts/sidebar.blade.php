@@ -16,7 +16,7 @@
         </div>
 
         <!-- search form (Optional) -->
-        <form action="#" method="get" class="sidebar-form">
+        {{-- <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
                 <input type="text" name="q" class="form-control" placeholder="Search...">
                 <span class="input-group-btn">
@@ -24,12 +24,12 @@
               </button>
             </span>
             </div>
-        </form>
+        </form> --}}
         <!-- /.search form -->
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">Fungsi</li>
+            <li class="header">Menu</li>
             <!-- Optionally, you can add icons to the links -->
             <li class="active"><a href="{{ url('/home') }}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
             <li class="active"><a href="{{ route('user.index') }}"><i class="fa fa-users"></i> <span>Users</span></a></li>
