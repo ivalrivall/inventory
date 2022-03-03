@@ -9,6 +9,13 @@ php artisan key:generate
 php artisan serve
 ```
 
+## Demo
+[Heroku inventory](https://ivl-inventory.herokuapp.com)
+```bash
+email: admin@gmail.com
+pass: test1234
+```
+
 ## Tags
 
 - laravel
